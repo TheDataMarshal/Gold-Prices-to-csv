@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
-import csv
+#import csv
 import pandas as pd
 import time
 
@@ -38,4 +38,4 @@ def find_data():
 
 while(True):
     find_data()
-    time.sleep(5)
+    time.sleep(1800)
